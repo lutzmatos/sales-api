@@ -13,8 +13,9 @@ export const MONGO_PORT = env.MONGO_PORT || '27017';
 export const MONGO_DB = env.MONGO_DB || 'sales-db';
 export const MONGO_USERNAME = env.MONGO_USERNAME || 'admin';
 export const MONGO_PASSWORD = env.MONGO_PASSWORD || 'admin';
-export const MONGO_DB_URL = `mongodb+srv://${MONGO_HOST}:${MONGO_PORT}/${MONGO_DB}?retryWrites=true&w=majority`;
+// export const MONGO_DB_URL = `mongodb+srv://${MONGO_HOST}:${MONGO_PORT}/${MONGO_DB}?retryWrites=true&w=majority`;
 // export const MONGO_DB_URL = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOST}:${MONGO_PORT}/${MONGO_DB}`;
+export const MONGO_DB_URL = `mongodb+srv://admin:admin@cluster0.dwq8g.mongodb.net/sales-db?retryWrites=true&w=majority`;
 
 /*******************************************************************************
  * API: Product
