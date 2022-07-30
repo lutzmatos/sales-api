@@ -1,5 +1,6 @@
 # yarn start
 # nodemon /app/app.js
 # supervisor /app/app.js
-yarn run dev
+# yarn run dev
 # forever /app/app.js
+node /app/app.js
