@@ -36,7 +36,7 @@ export function connectMongoDb()
             // console.log(MONGO_PASSWORD);
             console.log('MongoDB conectado!');
             console.log('-------------------------------------------------');
-            //createInitialData();
+            createInitialData();
         }
     );
 
