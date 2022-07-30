@@ -17,6 +17,7 @@ class OrderController
 
     async findAll(req, res)
     {
+        console.log('+++++++++++++++++++++++++++++++ findAll');
         const result = await OrderService.findAll(req);
         return res.status(result.status.code).json(result);
     }
