@@ -54,7 +54,7 @@ app.get(
 );
 
 // Checagem de jwt
-app.use(middlewareAuth);
+// app.use(middlewareAuth);
 
 // Vendas
 app.use(orderRoutes);
