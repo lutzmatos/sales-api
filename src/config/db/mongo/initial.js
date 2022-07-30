@@ -31,6 +31,8 @@ export async function createInitialData ()
                 email: 'uset@test.com'
             },
             status: 'APPROVED',
+            transactionid: 'abc-123',
+            serviceid: 'abc-456',
             createdAt: new Date(),
             updatedAt: new Date()
         }
@@ -51,6 +53,8 @@ export async function createInitialData ()
                 email: 'root@root.com'
             },
             status: 'REJECTED',
+            transactionid: 'abc-123-456',
+            serviceid: 'abc-456-789',
             createdAt: new Date(),
             updatedAt: new Date()
         }
